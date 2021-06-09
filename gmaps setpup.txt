@@ -1,0 +1,8 @@
+1)npm install @types/googlemaps --save-dev
+2)in tsconfig.json add  "compilerOptions": {
+    "types": ["gapi", "gapi.auth2","googlemaps"],
+3)in tsconfig.app.json "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": ["googlemaps"]
+  },
+4)copy all packages from gmaps tutorial project

@@ -1,0 +1,4 @@
+ng serve --prod --optimization=false: Run this to check if it works locally for production
+1)ng build --prod --aot
+2)firebase init 
+3)firebase deploy
